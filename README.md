@@ -6,7 +6,7 @@
   The output includes a JSON file including "result" and "user-token".
  
  Example:
-    **Input:** localhost/api/reguser/ (headers: device-id: “abcd1234”)
+    **Input:** localhost/api/reguser/ (headers: device-id: “abcd1234”)<br />
     **Output:** { result: “ok”, user-token:”abcdefgh12345678”}
   
 #### Listing Medias
@@ -14,13 +14,13 @@
   The output is a JSON file including "result" and "media".
   
   Example:
-    **Input:** localhost/api/allMedia/ (headers: user-token:”abcdefgh12345678”)
+    **Input:** localhost/api/allMedia/ (headers: user-token:”abcdefgh12345678”)<br />
     **Output:** { result: “ok”, media:[ “dl.ingrm.com/mid01”, “dl.ingrm.com/mid02”, “dl.ingrm.com/mid03”] }
     
  #### Deleting a media based on ID
   Users can delete a specific media by sending the Mid=[id of media] to the query.
     The output is a JSON file including "result" and "removed".
     
-    Example:
-    ***Input:*** localhost/api/remove?mid=”mid02”/ (headers: user-token:”abcdefgh12345678”) 
-    ***Output:*** { result: “ok”, removed:1}
+  Example:
+    **Input:** localhost/api/remove?mid=”mid02”/ (headers: user-token:”abcdefgh12345678”) <br />
+    **Output:** { result: “ok”, removed:1}
