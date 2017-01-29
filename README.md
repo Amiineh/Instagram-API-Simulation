@@ -1,4 +1,4 @@
-# mini-project
+# Instagram-API-Simulation
   The purpose of this project is to simulate an API for Instagram. The endpoints of this project are mentioned bellow.
   
   -Sign up: 
